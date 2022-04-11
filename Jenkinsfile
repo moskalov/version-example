@@ -1,10 +1,8 @@
 pipeline {
     agent any
-
     environment{
         GIT_TOKEN='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'
     }
-
     stages {
         stage('Checkout') {
             steps {
